@@ -320,10 +320,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   color: #555;
 }
 
+font-family: 'Kolker Brush', cursive;
 
 @font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/Helvetica.woff') format("woff"),
-         url('../fonts/Helvetica.ttf') format("truetype"),
-         url('../fonts/Helvetica.eot') format("embedded-opentype");
+  font-family: 'Kolker Brush', cursive;
+  src: url('../fonts/KolkerBrush-Regular.woff') format("woff"),
+         url('../fonts/KolkerBrush-Regular.ttf') format("truetype"),
+         url('../fonts/KolkerBrush-Regular.eot') format("embedded-opentype");
 }
