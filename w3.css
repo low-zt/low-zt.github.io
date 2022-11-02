@@ -328,3 +328,8 @@ font-family: 'Kolker Brush', cursive;
          url('../fonts/KolkerBrush-Regular.ttf') format("truetype"),
          url('../fonts/KolkerBrush-Regular.eot') format("embedded-opentype");
 }
+
+.flex-align-title span {
+  text-align: left;
+  display: inline-block;
+}
