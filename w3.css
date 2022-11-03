@@ -329,13 +329,18 @@ font-family: 'Kolker Brush', cursive;
          url('../fonts/KolkerBrush-Regular.eot') format("embedded-opentype");
 }
 
+.textF {
+    font-family: 'Helvetica' ;
+}
+
+
 .flex-align-title span {
   text-align: left;
   display: inline-block;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
-.testGF {
+.Kolker Brush {
   font-family: 'Kolker Brush', cursive;
 }
 
