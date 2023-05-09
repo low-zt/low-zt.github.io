@@ -15,9 +15,30 @@ a:link {
   display: inline-block;
 }
 
+.popup-menu {
+  position: fixed;
+  display: none;
+  justify-content: center;
+  border: 2px #000000;
+  border-style: solid none;
+  background-color: #b85798;
+  padding: 8px 16px;
+  width: 100%;
+  top: 50px;
+  left: 0;
+}
+
+#menu-close {
+  display: none;
+}
+
 .nav-icon {
   width: 40px;
   height: 40px;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
 }
 
 *,
@@ -928,6 +949,11 @@ a {
 @media (max-width:768px) {
   .mobile-menu {
     display: inline-block;
+  }
+
+  .separate-dots { /* not sure what's controlling this margin here */
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .desktop-menu {
