@@ -2154,6 +2154,12 @@ position:absolute;
 }
 .div2{
 position:absolute;
+z-index: 2; /* 將z-index設為1 */
 
 }
 
+.div3{
+position:absolute;
+z-index: 3; /* 將z-index設為1 */
+
+}
