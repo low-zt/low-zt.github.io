@@ -2145,3 +2145,15 @@ a {
   text-decoration: none;
   color: #555;
 }
+
+.div1{
+z-index: 1; /* 將z-index設為1 */
+position:absolute;
+
+
+}
+.div2{
+position:absolute;
+
+}
+
